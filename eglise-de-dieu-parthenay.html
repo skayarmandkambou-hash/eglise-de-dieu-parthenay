@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Église De Dieu – Parthenay (79200)</title>
+<meta name="description" content="Bienvenue à l'Église De Dieu de Parthenay (79200). Rejoignez-nous pour nos cultes, prières et études bibliques. Pasteure Pamela Chworimootoo. Église protestante ouverte à tous à Parthenay, Deux-Sèvres.">
+<meta name="keywords" content="église Parthenay, église protestante Parthenay, Église De Dieu Parthenay, culte Parthenay, chrétien Parthenay 79200, église évangélique Deux-Sèvres">
+<meta property="og:title" content="Église De Dieu – Parthenay">
+<meta property="og:description" content="Une communauté chrétienne ouverte à tous à Parthenay. Culte dimanche 10h, prière mercredi, étude biblique vendredi.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --burgundy: #1e4a7a;
+  --burgundy-dark: #0f2d52;
+  --burgundy-light: #2e6aad;
+  --gold: #c4a882;
+  --gold-light: #e8d5b5;
+  --cream: #f7f4ee;
+  --warm-white: #ffffff;
+  --text: #1a2030;
+  --muted: #6a7080;
+  --border: #ddd5c4;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ── NAV ── */
+nav {
+  background: var(--burgundy-dark);
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  color: var(--gold-light);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-cross { font-size: 18px; color: var(--gold); }
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  color: var(--gold-light);
+  border-bottom-color: var(--gold);
+}
+
+/* ── HERO ── */
+.hero {
+  background: var(--burgundy-dark);
+  min-height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 2rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg-cross {
+  position: absolute;
+  font-size: 500px;
+  color: rgba(255,255,255,0.025);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  pointer-events: none;
+  font-family: serif;
+  line-height: 1;
+}
+
+.hero-ornament {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.hero-content { position: relative; max-width: 760px; }
+
+.hero-verse {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--gold);
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  color: var(--warm-white);
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.hero-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  color: var(--gold-light);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.hero-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.4);
+  color: var(--gold-light);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border-radius: 100px;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.65);
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+.btn-gold {
+  background: var(--gold);
+  color: var(--burgundy-dark);
+  padding: 14px 36px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, transform 0.1s;
+}
+.btn-gold:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+.btn-ghost {
+  border: 1.5px solid rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.85);
+  padding: 14px 36px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color 0.2s, background 0.2s;
+}
+.btn-ghost:hover { border-color: var(--gold); color: var(--gold-light); }
+
+/* ── SECTIONS ── */
+.section { padding: 5rem 2rem; max-width: 1100px; margin: 0 auto; }
+
+.section-label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  color: var(--burgundy-dark);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section-intro { color: var(--muted); max-width: 620px; font-size: 15px; }
+
+.divider-cross {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--gold);
+  opacity: 0.5;
+  font-size: 20px;
+  letter-spacing: 12px;
+}
+
+/* ── HORAIRES ── */
+.horaires-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.horaire-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 2rem 1.75rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.horaire-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(107,39,55,0.12);
+}
+
+.horaire-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--burgundy), var(--gold));
+}
+
+.horaire-icon { font-size: 32px; margin-bottom: 1rem; }
+.horaire-day {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--burgundy-dark);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.horaire-time {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0.4rem 0;
+}
+.horaire-type { font-size: 14px; color: var(--muted); font-weight: 400; }
+
+/* ── AGENDA ── */
+.agenda-section { background: var(--warm-white); padding: 5rem 2rem; }
+.agenda-inner { max-width: 1100px; margin: 0 auto; }
+
+.agenda-list { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1rem; }
+
+.agenda-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.agenda-item:hover { border-color: var(--burgundy-light); }
+
+.agenda-date {
+  min-width: 60px;
+  text-align: center;
+  background: var(--burgundy);
+  color: white;
+  border-radius: 10px;
+  padding: 8px 6px;
+  flex-shrink: 0;
+}
+
+.agenda-date-day {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  display: block;
+}
+
+.agenda-date-month {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  display: block;
+  margin-top: 2px;
+}
+
+.agenda-info {}
+.agenda-title { font-weight: 700; color: var(--burgundy-dark); font-size: 15px; margin-bottom: 2px; }
+.agenda-desc { font-size: 13px; color: var(--muted); }
+.agenda-badge {
+  display: inline-block;
+  background: rgba(201,168,76,0.15);
+  color: #7a5a10;
+  border: 1px solid rgba(201,168,76,0.4);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 2px 10px;
+  border-radius: 100px;
+  margin-top: 6px;
+}
+
+/* ── PHOTOS ── */
+.photos-section {
+  background: var(--burgundy-dark);
+  padding: 5rem 2rem;
+}
+
+.photos-inner { max-width: 1100px; margin: 0 auto; }
+.photos-section .section-label { color: var(--gold); }
+.photos-section .section-title { color: var(--warm-white); }
+.photos-section .section-intro { color: rgba(255,255,255,0.55); }
+
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.photo-card {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  position: relative;
+  border: 2px dashed rgba(201,168,76,0.3);
+  background: rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.photo-card:hover { border-color: var(--gold); }
+
+.photo-icon-wrap {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: rgba(201,168,76,0.15);
+  border: 2px solid rgba(201,168,76,0.4);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px;
+}
+
+.photo-label { font-size: 13px; color: rgba(255,255,255,0.5); text-align: center; padding: 0 1rem; }
+.photo-caption-text { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.8); }
+
+.photo-guide {
+  margin-top: 2rem;
+  background: rgba(201,168,76,0.1);
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+}
+
+.photo-guide strong { color: var(--gold-light); }
+
+/* ── TEMOIGNAGES ── */
+.temoignages-section { padding: 5rem 2rem; }
+.temoignages-inner { max-width: 1100px; margin: 0 auto; }
+
+.temoignages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.temoignage-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 2rem;
+  position: relative;
+}
+
+.temoignage-quote {
+  font-size: 48px;
+  color: var(--gold-light);
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 0.7;
+  margin-bottom: 1rem;
+}
+
+.temoignage-text {
+  font-size: 15px;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.temoignage-author { display: flex; align-items: center; gap: 10px; }
+
+.temoignage-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--burgundy), var(--burgundy-light));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 700; color: white;
+  flex-shrink: 0;
+}
+
+.temoignage-name { font-weight: 700; font-size: 14px; color: var(--burgundy-dark); }
+.temoignage-since { font-size: 12px; color: var(--muted); }
+
+/* ── DONS ── */
+.dons-section { background: var(--burgundy); padding: 5rem 2rem; }
+.dons-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+
+.dons-section .section-label { color: var(--gold-light); }
+.dons-section .section-title { color: var(--warm-white); margin-bottom: 1rem; }
+.dons-section .section-intro { color: rgba(255,255,255,0.65); margin: 0 auto 3rem; }
+
+.dons-verset {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--gold-light);
+  margin-bottom: 2.5rem;
+  padding: 1rem 2rem;
+  border-left: 3px solid var(--gold);
+  border-right: 3px solid var(--gold);
+  display: inline-block;
+  max-width: 600px;
+}
+
+.dons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.don-option {
+  background: rgba(255,255,255,0.08);
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  color: white;
+}
+
+.don-option:hover {
+  background: rgba(201,168,76,0.15);
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.don-montant { font-size: 2rem; font-weight: 700; color: var(--gold-light); }
+.don-label { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 4px; }
+
+.dons-info {
+  margin-top: 2.5rem;
+  background: rgba(0,0,0,0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+}
+
+.dons-info strong { color: var(--gold-light); }
+
+/* ── CONTACT ── */
+.contact-section { background: var(--cream); padding: 5rem 2rem; }
+.contact-inner { max-width: 1100px; margin: 0 auto; }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.contact-info-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.75rem;
+}
+
+.contact-icon {
+  width: 44px; height: 44px;
+  background: rgba(107,39,55,0.08);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.contact-info-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 3px; font-weight: 700; }
+.contact-info-value { font-weight: 600; color: var(--burgundy-dark); font-size: 15px; }
+.contact-info-value a { color: var(--burgundy); text-decoration: none; }
+.contact-info-value a:hover { text-decoration: underline; }
+
+.map-embed {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 1.5rem;
+  border: 1px solid var(--border);
+  aspect-ratio: 16/7;
+  background: #e0d8cc;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.map-embed-icon { font-size: 36px; }
+
+/* FORM */
+.contact-form-wrap {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.form-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--burgundy-dark);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-form { display: flex; flex-direction: column; gap: 1rem; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus { border-color: var(--burgundy); }
+
+.contact-form textarea { resize: vertical; min-height: 110px; }
+
+.contact-form button {
+  background: var(--burgundy);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  transition: background 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.contact-form button:hover { background: var(--burgundy-light); }
+
+/* ── PASTEUR CARD ── */
+.pasteur-card {
+  background: linear-gradient(135deg, var(--burgundy-dark), var(--burgundy));
+  border-radius: 16px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+}
+
+.pasteur-avatar {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  border: 2px solid var(--gold);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.pasteur-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold-light); margin-bottom: 4px; }
+.pasteur-name { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 600; }
+.pasteur-sub { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 2px; }
+
+/* ── FOOTER ── */
+footer {
+  background: #081828;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  padding: 2.5rem 2rem;
+  font-size: 13px;
+}
+
+footer .footer-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+}
+
+footer a { color: var(--gold); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 680px) {
+  nav { padding: 0 1rem; }
+  .nav-links { gap: 0.75rem; }
+  .nav-links a { font-size: 11px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .form-row { grid-template-columns: 1fr; }
+  .hero-btns { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-logo">
+    <span class="nav-cross">✝</span>
+    Église De Dieu · Parthenay
+  </div>
+  <ul class="nav-links">
+    <li><a href="#horaires">Cultes</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#galerie">Photos</a></li>
+    <li><a href="#temoignages">Témoignages</a></li>
+    <li><a href="#dons">Dons</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg-cross">✝</div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <div class="hero-verse">« Car là où deux ou trois sont assemblés en mon nom, je suis au milieu d'eux. » — Matthieu 18:20</div>
+    <h1>Église De Dieu</h1>
+    <div class="hero-sub">Parthenay, Deux-Sèvres</div>
+    <div class="hero-location">📍 Parthenay · 79200 · France</div>
+    <p>Une communauté chrétienne fondée sur la Parole, unie dans la louange, ouverte à tous. Rejoignez-nous chaque dimanche pour un culte vivant et chaleureux.</p>
+    <div class="hero-btns">
+      <a href="#horaires" class="btn-gold">Nos cultes & horaires</a>
+      <a href="#contact" class="btn-ghost">Nous trouver</a>
+    </div>
+  </div>
+</section>
+
+<!-- HORAIRES -->
+<section class="section" id="horaires">
+  <div class="section-label">Bienvenue parmi nous</div>
+  <h2 class="section-title">Nos cultes & réunions</h2>
+  <p class="section-intro">Que vous soyez croyant de longue date ou simplement curieux, notre porte est ouverte. Tous sont les bienvenus à l'Église De Dieu de Parthenay.</p>
+
+  <div class="horaires-grid">
+    <div class="horaire-card">
+      <div class="horaire-icon">🙏</div>
+      <div class="horaire-day">Mercredi</div>
+      <div class="horaire-time">20h00 – 21h00</div>
+      <div class="horaire-type">Prière & Exhortation</div>
+    </div>
+    <div class="horaire-card">
+      <div class="horaire-icon">📖</div>
+      <div class="horaire-day">Vendredi</div>
+      <div class="horaire-time">20h00 – 21h00</div>
+      <div class="horaire-type">Étude Biblique</div>
+    </div>
+    <div class="horaire-card">
+      <div class="horaire-icon">✨</div>
+      <div class="horaire-day">Dimanche</div>
+      <div class="horaire-time">10h00 – 12h00</div>
+      <div class="horaire-type">Culte de Louange & d'Adoration</div>
+    </div>
+  </div>
+
+  <!-- PASTEUR -->
+  <div class="pasteur-card">
+    <div class="pasteur-avatar">🕊️</div>
+    <div>
+      <div class="pasteur-label">Pasteure</div>
+      <div class="pasteur-name">Pamela Chworimootoo</div>
+      <div class="pasteur-sub">Église De Dieu · Parthenay</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-cross">✦ ✝ ✦</div>
+
+<!-- AGENDA -->
+<section class="agenda-section" id="agenda">
+  <div class="agenda-inner">
+    <div class="section-label">À venir</div>
+    <h2 class="section-title">Agenda des événements</h2>
+    <p class="section-intro">Retrouvez tous nos prochains événements, retraites et moments de communion fraternelle.</p>
+
+    <div class="agenda-list">
+      <div class="agenda-item">
+        <div class="agenda-date">
+          <span class="agenda-date-day">11</span>
+          <span class="agenda-date-month">Mai</span>
+        </div>
+        <div class="agenda-info">
+          <div class="agenda-title">Culte de Pentecôte – Culte spécial</div>
+          <div class="agenda-desc">Dimanche 10h00 · 41 Rue Henri Dunant, Parthenay</div>
+          <span class="agenda-badge">Culte spécial</span>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-date">
+          <span class="agenda-date-day">14</span>
+          <span class="agenda-date-month">Mai</span>
+        </div>
+        <div class="agenda-info">
+          <div class="agenda-title">Soirée de Prière & Exhortation</div>
+          <div class="agenda-desc">Mercredi 20h00 – 21h00 · Réunion hebdomadaire</div>
+          <span class="agenda-badge">Hebdomadaire</span>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-date">
+          <span class="agenda-date-day">16</span>
+          <span class="agenda-date-month">Mai</span>
+        </div>
+        <div class="agenda-info">
+          <div class="agenda-title">Étude Biblique</div>
+          <div class="agenda-desc">Vendredi 20h00 – 21h00 · Réunion hebdomadaire</div>
+          <span class="agenda-badge">Hebdomadaire</span>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-date">
+          <span class="agenda-date-day">07</span>
+          <span class="agenda-date-month">Jun</span>
+        </div>
+        <div class="agenda-info">
+          <div class="agenda-title">Journée fraternelle & repas communautaire</div>
+          <div class="agenda-desc">Lieu à confirmer · Moment de partage et de communion</div>
+          <span class="agenda-badge">Événement spécial</span>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top: 1.5rem; font-size: 13px; color: var(--muted);">
+      💡 <em>Modifiez les dates et événements directement dans le code HTML (section <code>#agenda</code>) pour les mettre à jour.</em>
+    </p>
+  </div>
+</section>
+
+<div class="divider-cross">✦ ✝ ✦</div>
+
+<!-- GALERIE -->
+<section class="photos-section" id="galerie">
+  <div class="photos-inner">
+    <div class="section-label">Notre vie ensemble</div>
+    <h2 class="section-title">Galerie photos</h2>
+    <p class="section-intro">Des moments de grâce, de fraternité et de partage qui font la vie de notre communauté à Parthenay.</p>
+
+    <div class="photos-grid">
+      <div class="photo-card">
+        <div class="photo-icon-wrap">📷</div>
+        <div class="photo-caption-text">Culte du dimanche</div>
+        <div class="photo-label">Remplacer par :<br><code>&lt;img src="culte.jpg"&gt;</code></div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-icon-wrap">📷</div>
+        <div class="photo-caption-text">Notre communauté</div>
+        <div class="photo-label">Remplacer par :<br><code>&lt;img src="communaute.jpg"&gt;</code></div>
+      </div>
+      <div class="photo-card">
+        <div class="photo-icon-wrap">📷</div>
+        <div class="photo-caption-text">Notre lieu de culte</div>
+        <div class="photo-label">Remplacer par :<br><code>&lt;img src="eglise.jpg"&gt;</code></div>
+      </div>
+    </div>
+
+    <div class="photo-guide">
+      <strong>Comment ajouter vos photos ?</strong> Remplacez chaque bloc gris par une balise <code>&lt;img src="votre-photo.jpg" style="width:100%; height:100%; object-fit:cover;"&gt;</code> et placez vos photos dans le même dossier que ce fichier HTML.
+    </div>
+  </div>
+</section>
+
+<!-- TÉMOIGNAGES -->
+<section class="temoignages-section" id="temoignages">
+  <div class="temoignages-inner">
+    <div class="section-label">Ils témoignent</div>
+    <h2 class="section-title">Témoignages</h2>
+    <p class="section-intro">La foi se vit et se partage. Voici quelques témoignages de membres de notre communauté. (Remplacez par de vrais témoignages.)</p>
+
+    <div class="temoignages-grid">
+      <div class="temoignage-card">
+        <div class="temoignage-quote">"</div>
+        <p class="temoignage-text">Depuis que j'ai rejoint l'Église De Dieu, ma vie a été transformée. J'ai trouvé une famille spirituelle qui m'a accueilli avec amour et sans jugement.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">M</div>
+          <div>
+            <div class="temoignage-name">Marie L.</div>
+            <div class="temoignage-since">Membre depuis 3 ans</div>
+          </div>
+        </div>
+      </div>
+      <div class="temoignage-card">
+        <div class="temoignage-quote">"</div>
+        <p class="temoignage-text">Les études bibliques du vendredi ont profondément enrichi ma connaissance de la Parole. Je remercie Dieu pour cette communauté à Parthenay.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">J</div>
+          <div>
+            <div class="temoignage-name">Jean-Pierre R.</div>
+            <div class="temoignage-since">Membre depuis 5 ans</div>
+          </div>
+        </div>
+      </div>
+      <div class="temoignage-card">
+        <div class="temoignage-quote">"</div>
+        <p class="temoignage-text">Les soirées de prière du mercredi sont un vrai ressourcement. L'atmosphère de paix et de foi qu'on y trouve est incomparable.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">S</div>
+          <div>
+            <div class="temoignage-name">Sophie D.</div>
+            <div class="temoignage-since">Membre depuis 2 ans</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top: 1.5rem; font-size: 13px; color: var(--muted);">
+      💡 <em>Remplacez ces exemples par de vrais témoignages de membres de votre église.</em>
+    </p>
+  </div>
+</section>
+
+<!-- DONS -->
+<section class="dons-section" id="dons">
+  <div class="dons-inner">
+    <div class="section-label">Soutenir l'œuvre</div>
+    <h2 class="section-title">Dons & offrandes</h2>
+    <p class="section-intro">Vos dons permettent de soutenir l'œuvre de Dieu, les activités de l'église et le rayonnement de l'Évangile à Parthenay et au-delà.</p>
+
+    <div class="dons-verset">
+      « Que chacun donne comme il l'a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie. »<br>
+      <span style="font-size: 0.85em; opacity: 0.75;">— 2 Corinthiens 9:7</span>
+    </div>
+
+    <div class="dons-grid">
+      <div class="don-option">
+        <div class="don-montant">5 €</div>
+        <div class="don-label">Don libre</div>
+      </div>
+      <div class="don-option">
+        <div class="don-montant">10 €</div>
+        <div class="don-label">Soutien régulier</div>
+      </div>
+      <div class="don-option">
+        <div class="don-montant">20 €</div>
+        <div class="don-label">Offrande mensuelle</div>
+      </div>
+      <div class="don-option">
+        <div class="don-montant">Autre</div>
+        <div class="don-label">Montant personnalisé</div>
+      </div>
+    </div>
+
+    <div class="dons-info">
+      <p>Pour faire un don, contactez-nous par email à <strong>eglisededieu79@gmail.com</strong> ou remettez votre offrande directement lors de nos cultes.</p>
+      <p style="margin-top: 0.5rem;">💡 <em>Vous pouvez aussi intégrer un lien PayPal, Lydia ou HelloAsso ici pour les dons en ligne.</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="section-label">Venez nous rejoindre</div>
+    <h2 class="section-title">Contact & comment nous trouver</h2>
+
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-info-label">Adresse</div>
+            <div class="contact-info-value">41 Rue Henri Dunant<br>79200 Parthenay, France</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-info-label">Téléphone</div>
+            <div class="contact-info-value"><a href="tel:+33666198661">06 66 19 86 61</a></div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-value"><a href="mailto:eglisededieu79@gmail.com">eglisededieu79@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">🕊️</div>
+          <div>
+            <div class="contact-info-label">Pasteure</div>
+            <div class="contact-info-value">Pamela Chworimootoo</div>
+          </div>
+        </div>
+
+        <!-- CARTE GOOGLE MAPS -->
+        <div class="map-embed">
+          <div class="map-embed-icon">🗺️</div>
+          <strong style="color: var(--muted);">Carte Google Maps</strong>
+          <span style="font-size: 12px; text-align: center; padding: 0 1rem;">Remplacez ce bloc par le code d'intégration Google Maps :<br>Maps → Partager → Intégrer une carte → Copier le HTML</span>
+        </div>
+        <!-- EXEMPLE : remplacez le bloc .map-embed par :
+        <iframe src="https://www.google.com/maps/embed?pb=..." 
+          width="100%" height="220" style="border:0; border-radius:12px;" 
+          allowfullscreen="" loading="lazy"></iframe>
+        -->
+      </div>
+
+      <div class="contact-form-wrap">
+        <div class="form-title">Envoyez-nous un message</div>
+        <p style="font-size: 14px; color: var(--muted); margin-bottom: 1.5rem;">Vous avez une question ? Vous souhaitez visiter notre église ou recevoir de la prière ? Écrivez-nous.</p>
+        <div class="contact-form">
+          <div class="form-row">
+            <input type="text" placeholder="Votre prénom">
+            <input type="text" placeholder="Votre nom">
+          </div>
+          <input type="email" placeholder="Votre adresse e-mail">
+          <input type="tel" placeholder="Votre téléphone (facultatif)">
+          <select>
+            <option value="">Objet du message…</option>
+            <option>Je souhaite visiter l'église</option>
+            <option>Demande de prière</option>
+            <option>Renseignements généraux</option>
+            <option>Événement ou partenariat</option>
+            <option>Autre</option>
+          </select>
+          <textarea placeholder="Votre message…"></textarea>
+          <button type="button" onclick="alert('Pour activer l\'envoi du formulaire, connectez-le à un service comme Formspree.io (gratuit).')">
+            Envoyer le message ✉️
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">✝ Église De Dieu · Parthenay</div>
+  <p>41 Rue Henri Dunant · 79200 Parthenay · France</p>
+  <p style="margin-top: 0.4rem;">
+    <a href="tel:+33666198661">06 66 19 86 61</a> ·
+    <a href="mailto:eglisededieu79@gmail.com">eglisededieu79@gmail.com</a>
+  </p>
+  <p style="margin-top: 1rem; font-size: 11px; opacity: 0.4;">© 2025 Église De Dieu Parthenay · Tous droits réservés · Soli Deo Gloria</p>
+</footer>
+
+</body>
+</html>
